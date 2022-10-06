@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.collapse-btn {
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(88, 88, 245);
+    border: none;
+}
+
+.collapse-btn:hover {
+    background-color: rgb(57, 57, 212);
+    border: 1px solid rgb(187, 187, 240);
+}
+
+.infocus {
+   border: none;
+   transition: border 1s;
+}
+
+.collapse {
+    height: 50px;
+    width: 500px;
+    overflow: hidden;
+    margin-top: 20px;
+    transition: height 1s;
+}
+
+.collapse.active {
+    height: 200px;
+}
+
+.collapse-content {
+    margin-top: 20px;
+    border: 2px solid rgb(130, 130, 245);
+}
+
+.collapse-text {
+    padding: 10px;
+}
+
